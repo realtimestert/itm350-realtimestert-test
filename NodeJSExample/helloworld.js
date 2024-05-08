@@ -1,6 +1,6 @@
-const name = "Stuart"
+const myName = "Stuart"
 
-console.log("Hello world")
+console.log("Hello " + myName)
 
 console.log("bye")
 
