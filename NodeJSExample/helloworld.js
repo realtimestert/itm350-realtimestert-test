@@ -2,7 +2,7 @@ const myName = "Stuart"
 
 console.log("Hello " + myName)
 
-console.log("bye")
+console.log("bye" + myName)
 
 //> git push origin main:main
 //remote: error: GH006: Protected branch update failed for refs/heads/main.
