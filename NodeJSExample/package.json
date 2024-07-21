@@ -1,12 +1,13 @@
 {
-  "name": "itm350-realtimestert-test",
+  "name": "nodejsexample",
   "version": "1.0.0",
-  "description": "hello?",
+  "description": "week2",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "hello": "node helloworld.js",
+    "test": "jest --coverage"
   },
-  "author": "Realttimestert",
+  "author": "Andrew Jayasinghe",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"

@@ -1,6 +1,4 @@
-var myName = "Stuart"
-
-function helloWorld() {
-    return "Hello " + myName;
-}
-module.exports = helloWorld;
+module.exports = function helloworld() {
+    const firstName = "Andrew Jayasinghe";
+    console.log("Hello " + firstName);
+  };

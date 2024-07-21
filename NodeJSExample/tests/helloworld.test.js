@@ -1,5 +1,7 @@
-const helloWorld = require('../src/helloworld');
+const helloworld = require('../src/helloworld');
 
-test('returns the string "Hello Stuart"', () => {
-    expect(helloWorld()).toBe("Hello Stuart");
-})
+test('prints correct greeting with first name', () => {
+  const consoleSpy = jest.spyOn(console, 'log');
+  helloworld();
+  expect(consoleSpy).toHaveBeenCalledWith('Hello Andrew Jayasinghe');
+});
